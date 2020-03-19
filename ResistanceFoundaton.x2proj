@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>10a3adf7-bc8d-49dd-84da-42553b76d383</Guid>
+    <Name>Resistance Faction: SCP Foundation</Name>
+    <Description>Please work</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>ResistanceFoundaton</AssemblyName>
+    <RootNamespace>ResistanceFoundaton</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\LW_Tuple" />
+    <Folder Include="Src\LW_Tuple\Classes" />
+    <Folder Include="Src\ResistanceFactionSCPFoundation\" />
+    <Folder Include="Src\ResistanceFactionSCPFoundation\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComAlliesUnknown.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComContent.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEncounterLists.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEncounters.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEncyclopedia.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComExtraSpecies.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameBoard.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_CharacterStats.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMissionDefs.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMissions.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMissionSources.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComModAchievementSystem.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComNameList.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComSchedules.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\AlliesUnknownRedux_ModShaderCache.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\FoundationFaction_MTF.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\FoundationSectopod.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_AlliesUnknown.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_FoundationFaction.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\ResistanceFactionScpFoundation.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\LW_Tuple\Classes\LWTuple.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\AU_X2SpeciesTuple_Template.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\Foundation_X2Helpers.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2Ability_AdvancedFoundationAbilityset.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2Character_CardScpOperatives.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2Character_FoundationSectopod.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2Character_MtfSoldier.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2EventListener_MTFs.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2FoundationRewards.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\PTG_X2AchievementTracker_SCP.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\RM_XComGameState_AchievementData.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\RM_XComGameState_AUTriggerObj.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\UIBlackmarketGoods_ExtraSpecices.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\UIGrayMarket.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\UIGrayMarketAlert.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\UIRecruitmentListItem_Extraspecies.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\UIRecruitSoldiers_Extraspecies.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\UIResistanceGoods_Extraspecies.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\UIScreenListener_ResistanceHQ.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\UIScreenListener_RewardsRecap.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2AbilitySet_FoundationFaction.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2DownloadableContentInfo_ResistanceFactionScpFoundation.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2Effect_AU_SmartMacrophages.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2EventListener_AlliesUnknown.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2FoundationStrategyCardTemplate.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2Item_FoundationSectopodWeapons.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2MissionSetFoundation.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2SCPresistanceFactionTemplate.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2StrategyElement_AUResistanceActions.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2StrategyElement_AU_CovertActions.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2StrategyElement_AU_ResistanceMode.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\X2StrategyElement_Foundation_ResistanceFaction.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\XComGameState_FoundationStrategyCard.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\XComGameState_SCPResistanceFaction.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ResistanceFactionSCPFoundation\Classes\XGCharacterGenerator_MTFSoldier.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

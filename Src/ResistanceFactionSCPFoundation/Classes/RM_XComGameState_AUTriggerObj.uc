@@ -1,0 +1,2 @@
+class RM_XComGameState_AUTriggerObj extends XComGameState_BaseObject;
+

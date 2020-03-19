@@ -1,0 +1,175 @@
+[XComGameState_ExtraspeciesRecruits]
+LabelCQ_AlienRecruits="RECRUIT NON-HUMANS"
+TooltipCQ_AlienRecruits="Hire non-human recruits"
+[X2EventListener_AlliesUnknown]
+IntelRebateTitle="Intel Rebate!"
+IntelRebate="<XGParam:IntValue0/!IntelValue> intel was gained from a resistance order."
+
+EngineerRebateTitle="Engineering Rebate!"
+EngineerRebate="<XGParam:IntValue0/!AlloyValue> alloys, <XGParam:IntValue1/!EleriumValue> elerium, and <XGParam:IntValue2/!SupplyValue> supplies was gained from a resistance order."
+
+[UIRecruitmentListItem_Extraspecies]
+RecruitConfirmLabel=RECRUIT
+
+[UIRecruitSoldiers_Extraspecies]
+m_strListTitle=NON-HUMAN RECRUITS
+m_strNoRecruits=No Recruits Available
+m_strCost=COST:
+m_strTime=TIME:
+m_strInstant=Instant
+m_strSupplies=<XGParam:IntValue0/> Supplies
+m_strNotEnoughSuppliesToRecruitDialogueTitle=NOT ENOUGH SUPPLIES
+m_strNotEnoughSuppliesToRecruitDialogueBody=We do not have enough supplies to take on this new recruit.
+m_strSpecies=SPECIES:
+
+[UIScreenListener_HumanRecruits]
+m_strRecruits="RECRUIT NON-HUMANS"
+
+[UIScreenListener_ResistanceHQ]
+m_strPersonnel="BUY NON-HUMAN PERSONNEL (SUPPLIES)"
+
+[UIStrategyMapItem_GrayMarket]
+MapPin_Header=GRAY MARKET
+m_strTooltipClosedMarket=Reports indicate a Gray Market is located in this area. If contacted, they may provide unique opportunities for trade.
+m_strTooltipOpenMarket=Visit the Gray Market for unique opportunities for trade. 
+m_strScanToOpenLabel=SEARCHING
+
+[XComGameState_GrayMarket]
+m_strScanButtonLabel="SEARCH FOR GRAY MARKET"
+m_strScanInteruptionText="We have not finished scanning for the Gray Market. Are you sure you want to leave?"
+m_strDisplayLabel=GRAY MARKET
+
+;faction
+[XComGameState_SCPResistanceFaction]
+FactionInfluenceStrings[0]="Low"
+FactionInfluenceStrings[1]="Medium"
+FactionInfluenceStrings[2]="High"
+
+
+[Faction_Foundation X2SCPResistanceFactionTemplate]
+FactionTitle="The Foundation"
+FactionHQDisplayName="Protected Site-01"
+LeaderQuote="\"We are The Foundation. Led by 05 council, we are to protect the world from anomalous objects and phenomenons. That's all you are allowed to know for now, Commander  .\" - 05-[REDACTED]"
+InfluenceMediumQuote="\"Your loyality to The Foundation is Irrefutable, Commander. Your soldiers will no longer be subjected to Class-A amnestics after every covert operation... unless it's critical for their survival, of course.\" - 05-[REDACTED]"
+InfluenceHighQuote="\"05-Council is now considering you as The Foundation's main ally. The Foundation will aid XCom in all ways possible, untill the earth is reclaimed.\" - 05-[REDACTED]"
+
+GroupNames[0]="Protectors"
+GroupNames[1]="Wardens"
+GroupNames[2]="Securers"
+GroupNames[3]="Bulwark"
+GroupNames[4]="Patron"
+GroupNames[5]="Archivists"
+GroupNames[6]="Pillar"
+GroupNames[7]="Assembly"
+GroupNames[8]="Alignment"
+GroupNames[9]="Council"
+GroupNames[10]="Conclave"
+GroupNames[11]="Association"
+GroupNames[12]="Congregation"
+GroupNames[13]="Order"
+GroupNames[14]="Observers"
+GroupNames[15]="Board"
+
+Descriptors_Prefix[0]="Cryptic"
+Descriptors_Prefix[1]="Enigmatic"
+Descriptors_Prefix[2]="Esoteric"
+Descriptors_Prefix[3]="Covert"
+Descriptors_Prefix[4]="Opaque"
+Descriptors_Prefix[5]="Mysterious"
+Descriptors_Prefix[6]="Anonymous"
+Descriptors_Prefix[7]="Secret"
+Descriptors_Prefix[8]="Omnipresent"
+Descriptors_Prefix[9]="Vigilant"
+Descriptors_Prefix[10]="Ambiguous"
+Descriptors_Prefix[11]="Decisive"
+
+Descriptors_Suffix[0]="of The Dark"
+Descriptors_Suffix[1]="of The Darkness"
+Descriptors_Suffix[2]="of The Humanity"
+Descriptors_Suffix[3]="of the Underground"
+Descriptors_Suffix[4]="of The Anomalous"
+Descriptors_Suffix[5]="of The Unknown"
+Descriptors_Suffix[6]="of The Phantoms"
+Descriptors_Suffix[7]="of The Whispers"
+Descriptors_Suffix[8]="of The Whisperers"
+Descriptors_Suffix[9]="of Deception"
+Descriptors_Suffix[10]="of The Underworld"
+Descriptors_Suffix[11]="of The Knowledge"
+
+
+;strategy cards
+
+[ResCard_SameTeam X2FoundationStrategyCardTemplate]
+DisplayName="Same Team"
+SummaryText="All of the MTF Squads encountered in the field will now be friendly to XCOM."
+QuoteText="We trust you enough to make sure our Mobile Task Forces won't open fire at you, even if you suppousedly get in their way."
+QuoteTextAuthor="05-[REDACTED]"
+
+[ResCard_Secure X2FoundationStrategyCardTemplate]
+DisplayName="Secure..."
+SummaryText="On every mission, there is a considerable chance that a MTF operative will join the XCOM squad."
+QuoteText="From time to time we will send in one of our field experts for some data collection and support... Under your command of course."
+QuoteTextAuthor="05-[REDACTED]"
+
+[ResCard_XenoIntelligence X2FoundationStrategyCardTemplate]
+DisplayName="Alien Decryption"
+SummaryText="Gain 20% more intel from decryption techs, with an additional 1% bonus per scientist XCOM has."
+QuoteText="Psionic-based technology completely upended how we thought the universe worked, but it's not undecipherable magic."
+QuoteTextAuthor="Aethyta"
+
+[ResCard_ToSaveMankindI X2FoundationStrategyCardTemplate]
+DisplayName="To Save Mankind I"
+SummaryText="Alien recruits at the Avenger now have a 20% discount."
+QuoteText="Contray to what Volk and his Reapers may believe, some of us do think your species is pretty all right."
+QuoteTextAuthor="Aethyta"
+
+[ResCard_ToSaveMankindII X2FoundationStrategyCardTemplate]
+DisplayName="To Save Mankind II"
+SummaryText="Alien recruits at the Avenger now have a 40% discount."
+QuoteText="Some of them have been born here, some of them tried to start families here. They're willing to bleed for Earth just the same as your own troops."
+QuoteTextAuthor="Aethyta"
+
+[ResCard_XenoMedicineI X2FoundationStrategyCardTemplate]
+DisplayName="Xenomedicine I"
+SummaryText="Organic soldiers now heal two points of HP at the end of missions, reducing recovery time."
+QuoteText="We've been fighting the Ethereals way too long to not have some kind of remedy for plasma burns."
+QuoteTextAuthor="Aethyta"
+
+[ResCard_XenoMedicineII X2FoundationStrategyCardTemplate]
+DisplayName="Xenomedicine II"
+SummaryText="Organic soldiers now heal three points of HP at the end of missions, reducing recovery time."
+QuoteText="The joint effort between our doctors and yours has been working out great: how does medi-gel sound for the final product?"
+QuoteTextAuthor="Aethyta"
+
+[ResCard_XenoEngineeringI X2FoundationStrategyCardTemplate]
+DisplayName="Xenoengineering I"
+SummaryText="Gain a 15% resource rebate on both engineering and research projects."
+QuoteText="Omni-gel: useful for breaking into any locked object, and turning your leftover salvage into usable materials again."
+QuoteTextAuthor="Aethyta"
+
+[ResCard_XenoEngineeringII X2FoundationStrategyCardTemplate]
+DisplayName="Xenoengineering II"
+SummaryText="Gain a 20% resource rebate on both engineering and research projects, and robotic units now repair faster."
+QuoteText="It'll make anybody who has to review these blueprints cry, but it's the best we can make do with our combined resources."
+QuoteTextAuthor="Aethyta"
+
+[ResCard_VetTraining X2FoundationStrategyCardTemplate]
+DisplayName="...Protect"
+SummaryText="All MTF Teams and resistance militia soldiers will gain excessive stat boosts."
+QuoteText="05-Council has decided to send some of our veterans to aid training of resistance militia, in order to better prepare them for any future incidents."
+QuoteTextAuthor="05-[REDACTED]"
+
+[ResCard_OneDamnTile X2StrategyCardTemplate]
+DisplayName="Quick Acquisition"
+SummaryText="All Xcom Units Gain additional Mobility Point."
+QuoteText="Foundation will make sure that situations in which your soldiers 'Almost' compete the objective won't happen again, Commander."
+QuoteTextAuthor="05-[REDACTED]"
+
+
+
+
+
+
+
+
+
